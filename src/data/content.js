@@ -6,14 +6,20 @@ export const PROFILE = {
   experience: "2+ years",
   kicker: "Open to full-stack and backend roles",
   headline:
-    "I am a software developer who enjoys writing code, solving problems, and understanding how things work behind the scenes.",
+    "Software developer focused on building reliable integrations, backend systems, and full-stack applications.",
   about: [
-    "I am curious and enjoy learning new things. When a project requires something I haven’t worked with before, I’m comfortable learning it and figuring out how it works.",
-    "With my current experience, I Strengthen my problem-solving skills and gain hands-on experience with APIs, debugging production issues and working with cross-functional teams.",
-    "I have a strong foundation in JavaScript, React, and Node.js, although I've had limited opportunities to apply them in my professional role. I’ve continued building my skills through personal projects and learning in my own timee.",
-    "I’m looking to bring these experiences together, work on more development-focused projects, and continue growing while exploring AI and LLMs.",
+    "I enjoy understanding how systems work behind the scenes, solving problems, and turning requirements into working software.",
+    "In my current role, I work on customer-specific product integrations involving REST APIs, data mapping, workflows, migrations, and production debugging.",
+    "Alongside my professional work, I build full-stack projects with JavaScript, React, Node.js, Express.js, and MongoDB to strengthen my development skills through hands-on implementation.",
+    "I’m looking to work on development-focused products where I can contribute across the stack, deepen my backend skills, and continue exploring AI and LLM technologies.",
   ],
-  stack: ["React.js", "JavaScript", "Node.js", "Express.js", "MongoDB"],
+  stack: [
+    "React.js",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+  ],
   lookingFor: [
     "React.js",
     "JavaScript",
@@ -21,9 +27,9 @@ export const PROFILE = {
     "Full Stack Development",
     "Backend Development",
   ],
-  email: "YOUR_EMAIL",
-  github: "YOUR_GITHUB_URL",
-  linkedin: "YOUR_LINKEDIN_URL",
+  email: "raveendra180821@gmail.com",
+  github: "https://github.com/raveendra180821",
+  linkedin: "https://www.linkedin.com/in/raveendra180821/",
   resume: "/resume.pdf",
 };
 
@@ -35,68 +41,81 @@ export const ROLES = [
 ];
 
 export const STATS = [
-  { value: "2+", label: "Years" },
+  { value: "2+", label: "Years Experience" },
   { value: "30+", label: "Integrations" },
-  { value: "01", label: "Shipped project" },
+  { value: "1", label: "Full-Stack Project" },
 ];
 
 export const COPY = {
   about: {
     title: "About",
-    lead: "How I like to work, and what I want to build next.",
+    lead: "A little about what I build, how I work, and where I want to grow.",
   },
+
   experience: {
     title: "Experience",
-    lead: "Customer-specific integrations at Phenom — APIs, workflows, data mapping, and production debugging.",
+    lead: "Customer-specific integrations at Phenom involving APIs, workflows, data mapping, migrations, and production debugging.",
   },
+
   skills: {
     title: "Skills",
-    lead: "What I use at work, and what I use on my own projects.",
+    lead: "Technologies I use professionally and in my full-stack projects.",
   },
+
   projects: {
     title: "Projects",
-    lead: "Things I built myself to learn the stack end to end.",
+    lead: "Projects I built to strengthen my full-stack and backend development skills.",
   },
+
   contact: {
     title: "Get in touch",
-    lead: "I'm looking for React, Node, full-stack, or backend work. Email is fine.",
+    lead: "I'm open to React, Node.js, full-stack, and backend opportunities.",
   },
+
   footer: "Developer in Hyderabad.",
-};
+}
 
 export const EXPERIENCE = {
   role: "Product Integration Engineer I",
   company: "Phenom",
   location: "Hyderabad, India",
   duration: "Feb 2024 – Present",
+
   summary:
-    "I build and configure customer-specific product integrations at Phenom. Most of the work is APIs, workflows, data mapping, and getting those integrations ready for production.",
+    "I build and configure customer-specific product integrations at Phenom, working across APIs, workflows, data mapping, migrations, and production troubleshooting.",
+
   highlights: [
     {
       title: "Customer-specific integrations",
-      text: "I build and configure integrations around each customer's requirements, connecting their ATS or other systems to the Phenom product so data can move between the two correctly.",
+      text: "Build and configure integrations based on customer requirements, connecting external ATS and other systems with the Phenom platform so data can move reliably between systems.",
     },
+
     {
-      title: "APIs and data",
-      text: "I work with REST APIs and structured data like JSON and XML. That includes auth, reading requests and responses, mapping fields, and transforming external data so it fits the product.",
+      title: "APIs and data transformation",
+      text: "Work with REST APIs and structured data such as JSON and XML, including authentication, request and response handling, field mapping, and data transformation.",
     },
+
     {
       title: "Workflows and migrations",
-      text: "I configure integration workflows, often in JavaScript-based setups, and I've migrated existing integrations from older platforms onto newer ones.",
+      text: "Configure JavaScript-based integration workflows and migrate existing integrations from legacy platforms to newer systems.",
     },
+
     {
       title: "Production debugging",
-      text: "When an integration fails in production, I trace the workflow, API calls, mappings, configuration, and data to find the actual cause. Then I fix it or bring in the internal team that owns the next piece.",
+      text: "Investigate production issues by tracing workflows, API requests and responses, mappings, configurations, and data to identify the underlying cause and coordinate fixes when other teams are involved.",
     },
+
     {
-      title: "Team collaboration",
-      text: "Integration work often depends on other teams. When a change, dependency, or issue needs their involvement, I work with them to get it resolved.",
+      title: "Cross-functional collaboration",
+      text: "Work with internal teams to resolve integration dependencies, production issues, and changes that require coordination across different parts of the product.",
     },
+
     {
-      title: "Apply UI",
-      text: "I also made targeted frontend fixes in the Apply product — form validation, field behavior, fonts, spacing, and alignment — to clean up how the product looks and behaves.",
+      title: "Frontend improvements",
+      text: "Contribute targeted frontend fixes in the Apply product, including form validation, field behavior, typography, spacing, and alignment.",
     },
   ],
+
   tools: [
     "REST APIs",
     "JSON",
@@ -116,8 +135,16 @@ export const SKILL_GROUPS = [
   {
     id: "frontend",
     label: "Frontend",
-    items: ["JavaScript", "React.js", "Redux", "HTML", "CSS", "Tailwind CSS"],
+    items: [
+      "JavaScript",
+      "React.js",
+      "Redux",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+    ],
   },
+
   {
     id: "backend",
     label: "Backend",
@@ -130,15 +157,27 @@ export const SKILL_GROUPS = [
       "Socket.IO",
     ],
   },
+
   {
     id: "database",
     label: "Database",
-    items: ["MongoDB", "Mongoose", "SQLite"],
+    items: [
+      "MongoDB",
+      "Mongoose",
+      "SQLite",
+    ],
   },
+
   {
     id: "tools",
     label: "Tools",
-    items: ["Git", "GitHub", "Postman", "Jira", "VS Code"],
+    items: [
+      "Git",
+      "GitHub",
+      "Postman",
+      "Jira",
+      "VS Code",
+    ],
   },
 ];
 
@@ -146,28 +185,40 @@ export const PROJECTS = [
   {
     id: "devtinder",
     name: "devTinder",
-    tag: "Personal project",
+    tag: "Full-Stack Personal Project",
+
     blurb:
-      "A full-stack social connection platform. You can make a profile, send a connection request, and chat in real time.",
+      "A full-stack social connection platform for developers with profiles, connection requests, persistent conversations, and real-time messaging.",
+
     overview:
-      "React on the front, Node and Express for the API, MongoDB for data, Socket.IO for chat.",
+      "Built with React and Redux on the frontend, Node.js and Express for the API layer, MongoDB and Mongoose for persistence, and Socket.IO for real-time communication.",
+
     why:
-      "To get hands-on experience building a full-stack application",
+      "Built to gain hands-on experience designing and implementing a complete full-stack application, including authentication, API integration, database modeling, and real-time communication.",
+
     how:
-      "The React app talks to Express for login, profiles, and connection requests. Protected routes use JWT. Chat goes over Socket.IO, so messages show up without a refresh.",
+      "The React application communicates with Express APIs for authentication, profiles, and connection management. JWT protects application routes. Chat history is persisted in MongoDB, while Socket.IO delivers new messages in real time without requiring a page refresh.",
+
     hard:
-      "The tricky parts were keeping connection requests in sync and making chat feel live without opening it to anyone. The socket checks who you are before you join.",
+      "The most challenging part was designing the real-time chat flow. I created deterministic conversation rooms from both participant IDs, persisted messages in MongoDB before broadcasting them, and managed socket lifecycle and online status through a shared React Socket Context.",
+
     authentication:
-      "Login returns a JWT. Routes that need it ask for the token. So does the socket connection.",
+      "The application uses JWT-based authentication for protected API routes. Socket connections are initialized only after the authenticated user is available in the application state, connecting the real-time layer to the existing authentication flow.",
+
     realtime:
-      "Chat uses Socket.IO over WebSockets. Two people can talk without hitting refresh.",
+      "Implemented one-to-one real-time messaging with Socket.IO. Users join a shared conversation room derived from both participant IDs. Messages are saved to MongoDB and then emitted to the room, while socket connection and disconnection events are used to maintain online status and last-seen information.",
+
     features: [
       "Sign up and login",
       "Developer profiles",
       "Connection requests",
-      "Realtime chat",
-      "JWT-protected routes",
+      "Persistent chat history",
+      "Real-time one-to-one messaging",
+      "Online and last-seen status",
+      "JWT-protected API routes",
+      "Production Socket.IO configuration",
     ],
+
     stack: [
       "React.js",
       "Redux",
@@ -178,7 +229,8 @@ export const PROJECTS = [
       "Socket.IO",
       "JWT",
     ],
-    github: "YOUR_GITHUB_URL",
-    live: null,
+
+    github: "https://github.com/raveendra180821/devTinder",
+    live: "http://13.48.59.100",
   },
 ];
