@@ -9,7 +9,7 @@ export const PROFILE = {
     "Software developer focused on building reliable integrations, backend systems, and full-stack applications.",
   about: [
     "I enjoy understanding how systems work behind the scenes, solving problems, and turning requirements into working software.",
-    "In my current role, I work on customer-specific product integrations involving REST APIs, data mapping, workflows, migrations, and production debugging.",
+    "In my current role, I Strengthen my problem-solving skills and gain hands-on experience with APIs, debugging production issues and working with cross-functional teams.",
     "Alongside my professional work, I build full-stack projects with JavaScript, React, Node.js, Express.js, and MongoDB to strengthen my development skills through hands-on implementation.",
     "I’m looking to work on development-focused products where I can contribute across the stack, deepen my backend skills, and continue exploring AI and LLM technologies.",
   ],
@@ -185,10 +185,10 @@ export const PROJECTS = [
   {
     id: "devtinder",
     name: "devTinder",
-    tag: "Full-Stack Personal Project",
+    tag: "Full-Stack Project (MERN)",
 
     blurb:
-      "A full-stack social connection platform for developers with profiles, connection requests, persistent conversations, and real-time messaging.",
+      "A responsive full-stack social connection platform for developers with profiles, connection requests, persistent conversations, and real-time messaging.",
 
     overview:
       "Built with React and Redux on the frontend, Node.js and Express for the API layer, MongoDB and Mongoose for persistence, and Socket.IO for real-time communication.",
@@ -215,6 +215,7 @@ export const PROJECTS = [
       "Persistent chat history",
       "Real-time one-to-one messaging",
       "Online and last-seen status",
+      "Responsive design across screen sizes",
       "JWT-protected API routes",
       "Production Socket.IO configuration",
     ],
@@ -230,7 +231,53 @@ export const PROJECTS = [
       "JWT",
     ],
 
-    github: "https://github.com/raveendra180821/devTinder",
+    github: "https://github.com/raveendra180821/devTinder_Web",
     live: "http://13.48.59.100",
   },
+{
+  id: "food-delivery",
+  name: "Food Delivery",
+  tag: "Responsive React Application",
+
+  blurb:
+    "A responsive food ordering application with dynamic menu browsing, category filtering, cart management, and a complete checkout flow.",
+
+  overview:
+    "Users can browse food by category, add and remove items from the cart, adjust quantities, view dynamically calculated totals, and proceed through the checkout flow. Shared cart state is managed through React Context.",
+
+  why:
+    "Built to strengthen my React development skills through component-based architecture, shared state management, routing, dynamic rendering, and responsive UI design.",
+
+  how:
+    "Built with React, React Router, Context API, and reusable components to create a dynamic food ordering experience across different screen sizes.",
+
+  hard:
+    "The main challenge was keeping cart state synchronized across different parts of the application. I used React Context to centralize cart operations while keeping the menu, cart, and checkout components reusable and consistent.",
+
+  features: [
+    "Responsive design across screen sizes",
+    "Dynamic food category filtering",
+    "Reusable food item components",
+    "Add and remove cart items",
+    "Cart quantity management",
+    "Dynamic cart total calculation",
+    "Checkout flow",
+    "React Router navigation",
+    "Shared cart state with Context API",
+    "Sign-up interface",
+    "Mobile app promotion section",
+  ],
+
+  stack: [
+    "React.js",
+    "React Router",
+    "Context API",
+    "JavaScript",
+    "CSS",
+    "React Icons",
+  ],
+
+  github: "https://github.com/raveendra180821/Food-Delivery",
+  live: "https://food-delivery-rho-tan.vercel.app/",
+},
 ];

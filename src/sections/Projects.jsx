@@ -27,7 +27,7 @@ export default function Projects() {
       {active ? (
         <Modal title={active.name} onClose={() => setActive(null)}>
           <div className="modal-block">
-            <h3>What it is</h3>
+            <h3>Overview</h3>
             <p>{active.overview}</p>
           </div>
           <div className="modal-block">
